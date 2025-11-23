@@ -1,5 +1,11 @@
 
+
+declare const __BUILD_TIMESTAMP__: string;
+
 import { ExperienceItem, TimelineEntry } from './types';
+
+// Build timestamp - updated at build time
+export const BUILD_TIMESTAMP = __BUILD_TIMESTAMP__;
 
 export const NAV_ITEMS = [
   { label: 'About', href: '#about' },
