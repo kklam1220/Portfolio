@@ -322,7 +322,6 @@ function App() {
             action="https://formbold.com/s/9xlNj" 
             method="POST"
             className="text-left space-y-4 bg-surface p-8 border border-stone-800 rounded-sm shadow-2xl"
-            target="_blank"
           >
             <div className="grid md:grid-cols-2 gap-4">
               <div>
