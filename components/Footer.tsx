@@ -1,6 +1,17 @@
 import React from 'react';
 
 const Footer: React.FC = () => {
+  // Get current date and time
+  const lastUpdated = new Date().toLocaleString('zh-HK', {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hour12: false
+  });
+
   return (
     <footer className="bg-slate-950 text-slate-500 py-12 border-t border-slate-900">
       <div className="max-w-6xl mx-auto px-6 text-center">
@@ -10,8 +21,11 @@ const Footer: React.FC = () => {
            <a href="#writing" className="hover:text-accent transition-colors">Writing</a>
            <a href="#contact" className="hover:text-accent transition-colors">Contact</a>
         </div>
-        <p className="text-xs opacity-50">
+        <p className="text-xs opacity-50 mb-2">
           © {new Date().getFullYear()} All Rights Reserved.
+        </p>
+        <p className="text-xs opacity-50">
+          Last Updated: {lastUpdated}
         </p>
       </div>
     </footer>
