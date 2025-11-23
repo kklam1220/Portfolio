@@ -317,22 +317,58 @@ function App() {
             </a>
           </div>
 
-          <form className="text-left space-y-4 bg-surface p-8 border border-stone-800 rounded-sm shadow-2xl" onSubmit={(e) => e.preventDefault()}>
+          {/* FormBold Contact Form */}
+          <form 
+            action="https://formbold.com/s/9xlNj" 
+            method="POST"
+            className="text-left space-y-4 bg-surface p-8 border border-stone-800 rounded-sm shadow-2xl"
+          >
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <label className="block text-xs uppercase tracking-widest text-stone-500 mb-2">Name</label>
-                <input type="text" className="w-full bg-background border border-stone-700 text-primary p-3 focus:border-accent outline-none transition-colors" />
+                <input 
+                  type="text" 
+                  name="name"
+                  placeholder="Your Name"
+                  className="w-full bg-background border border-stone-700 text-primary p-3 focus:border-accent outline-none transition-colors" 
+                  required
+                />
               </div>
               <div>
                 <label className="block text-xs uppercase tracking-widest text-stone-500 mb-2">Email</label>
-                <input type="email" className="w-full bg-background border border-stone-700 text-primary p-3 focus:border-accent outline-none transition-colors" />
+                <input 
+                  type="email" 
+                  name="email"
+                  placeholder="Email"
+                  className="w-full bg-background border border-stone-700 text-primary p-3 focus:border-accent outline-none transition-colors" 
+                  required
+                />
               </div>
             </div>
             <div>
-              <label className="block text-xs uppercase tracking-widest text-stone-500 mb-2">Message</label>
-              <textarea rows={4} className="w-full bg-background border border-stone-700 text-primary p-3 focus:border-accent outline-none transition-colors"></textarea>
+              <label className="block text-xs uppercase tracking-widest text-stone-500 mb-2">Subject</label>
+              <input 
+                type="text" 
+                name="subject"
+                placeholder="Subject"
+                className="w-full bg-background border border-stone-700 text-primary p-3 focus:border-accent outline-none transition-colors"
+                required
+              />
             </div>
-            <button className="w-full bg-accent hover:bg-accentHover text-white font-bold py-3 uppercase tracking-widest transition-colors">
+            <div>
+              <label className="block text-xs uppercase tracking-widest text-stone-500 mb-2">Message</label>
+              <textarea 
+                name="message"
+                rows={4} 
+                placeholder="Type your message"
+                className="w-full bg-background border border-stone-700 text-primary p-3 focus:border-accent outline-none transition-colors"
+                required
+              ></textarea>
+            </div>
+            <button 
+              type="submit"
+              className="w-full bg-accent hover:bg-accentHover text-white font-bold py-3 uppercase tracking-widest transition-colors"
+            >
               Send Message
             </button>
           </form>
