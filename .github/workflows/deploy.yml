@@ -33,7 +33,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          BASE_PATH: /kin-kong-lam---portfolio/
+          BASE_PATH: /Portfolio/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
