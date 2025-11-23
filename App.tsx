@@ -307,9 +307,9 @@ function App() {
           </p>
 
           <div className="flex flex-col md:flex-row justify-center gap-6 mb-12">
-            <a href="mailto:contact@kinkonglam.com" className="flex items-center justify-center gap-3 px-6 py-4 bg-surface hover:bg-stone-800 border border-stone-700 rounded-sm transition-all group">
+            <a href="mailto:hello@kklamdrama.com" className="flex items-center justify-center gap-3 px-6 py-4 bg-surface hover:bg-stone-800 border border-stone-700 rounded-sm transition-all group">
               <Mail className="text-accent group-hover:scale-110 transition-transform" />
-              <span className="text-primary">contact@kinkonglam.com</span>
+              <span className="text-primary">hello@kklamdrama.com</span>
             </a>
             <a href="#" className="flex items-center justify-center gap-3 px-6 py-4 bg-surface hover:bg-stone-800 border border-stone-700 rounded-sm transition-all group">
               <MapPin className="text-accent group-hover:scale-110 transition-transform" />

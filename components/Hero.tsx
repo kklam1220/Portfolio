@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
             Kin Kong Lam
           </h1>
           <div className="flex flex-wrap justify-center gap-3 md:gap-6 text-lg md:text-xl text-secondary font-light leading-relaxed">
-            <span>Screenwriter</span>
+            <span>Playwright</span>
             <span className="text-accent hidden md:inline">•</span>
             <span>Drama Educator</span>
             <span className="text-accent hidden md:inline">•</span>

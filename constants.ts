@@ -78,6 +78,7 @@ export const WISHING_STONE_IMAGES = [
 ];
 
 // Combined list of Works and Awards
+// Combined list of Works and Awards
 export const WORKS_AND_AWARDS: TimelineEntry[] = [
   {
     id: 'ws-2025',
@@ -112,7 +113,7 @@ export const WORKS_AND_AWARDS: TimelineEntry[] = [
   {
     id: 'squirrel-book-2025',
     year: '2025',
-    title: 'Picture Book: The Squirrel, the Grey Wolf, and the Stone Spirit',
+    title: 'Picture Book: The Squirrel, the Grey Wolf, and the Stone Spirit (《松鼠 灰狼 石精靈》)',
     subtitle: 'Lamps Theatre',
     type: 'work',
     category: 'Publication',
@@ -137,7 +138,7 @@ export const WORKS_AND_AWARDS: TimelineEntry[] = [
   {
     id: 'father-daughter-2023',
     year: '2023',
-    title: 'Father and Daughter',
+    title: 'Father and Daughter (《父與女》)',
     subtitle: 'Lamps Theatre',
     type: 'work',
     category: 'Play',
@@ -145,9 +146,27 @@ export const WORKS_AND_AWARDS: TimelineEntry[] = [
     image: '/images/Father and Daughter/父 與 女 副本 1930.png'
   },
   {
+    id: 'princess-2022',
+    year: '2022',
+    title: 'Princess Hard to Fall (Cancelled) (《公主難落記！》)',
+    subtitle: 'Lamps Theatre',
+    type: 'work',
+    category: 'Play',
+    description: 'Playwright.'
+  },
+  {
+    id: 'self-chat-2022',
+    year: '2022',
+    title: 'Self Chat (Cancelled) (《自聊》)',
+    subtitle: 'Shatin Drama Gala / Lamps Theatre',
+    type: 'work',
+    category: 'Play',
+    description: 'Playwright.'
+  },
+  {
     id: 'pinecone-2021',
     year: '2021',
-    title: 'Picture Book: Where Is the Pine Cone?',
+    title: 'Picture Book: Where Is the Pine Cone? (《松果在哪裡？》)',
     subtitle: 'BGCA',
     type: 'work',
     category: 'Publication',
@@ -157,14 +176,14 @@ export const WORKS_AND_AWARDS: TimelineEntry[] = [
     id: 'dinner-sin-award-2020',
     year: '2020',
     title: 'Outstanding Script Award, 6th Heart River Play Competition',
-    subtitle: 'Work: "Dinner Sin"',
+    subtitle: 'Work: "Dinner Sin" (《飯罪》)',
     type: 'award',
     highlight: true
   },
   {
     id: 'dinner-sin-work-2020',
     year: '2020',
-    title: 'Dinner Sin',
+    title: 'Dinner Sin (《飯罪》)',
     subtitle: 'Pop Theatre',
     type: 'work',
     category: 'Play',
@@ -174,7 +193,7 @@ export const WORKS_AND_AWARDS: TimelineEntry[] = [
   {
     id: 'murder-cave-2020',
     year: '2020',
-    title: 'Murder in the Cave',
+    title: 'Murder in the Cave (《洞穴殺人事件》)',
     subtitle: 'HKAPA',
     type: 'work',
     category: 'Play',
@@ -184,12 +203,30 @@ export const WORKS_AND_AWARDS: TimelineEntry[] = [
   {
     id: 'cave-investigation-2020',
     year: '2020',
-    title: 'Cave Investigation',
+    title: 'Cave Investigation (《洞穴調查行動》)',
     subtitle: 'HKAPA',
     type: 'work',
     category: 'Play/Research',
     description: 'Playwright, Actor-Teacher, Researcher.',
     image: '/images/Cave Investigation Operation - A Process Drama/IMG-20181027-WA0007.jpg'
+  },
+  {
+    id: 'green-balcony-2020',
+    year: '2020',
+    title: 'Green Balcony (《綠色陽臺》)',
+    subtitle: 'HKAPA',
+    type: 'work',
+    category: 'Education',
+    description: 'Actor-Teacher.'
+  },
+  {
+    id: 'glass-zoo-2020',
+    year: '2020',
+    title: 'The Glass Menagerie (Cancelled) (《玻璃植物園》)',
+    subtitle: 'Shatin Drama Gala / Lamps Theatre',
+    type: 'work',
+    category: 'Play',
+    description: 'Playwright.'
   },
   {
     id: 'hkapa-scholarship-2019',
@@ -198,9 +235,18 @@ export const WORKS_AND_AWARDS: TimelineEntry[] = [
     type: 'scholarship'
   },
   {
+    id: 'ward-1-2019',
+    year: '2019',
+    title: 'Ward No. 1 (《一號病房》)',
+    subtitle: 'HKAPA',
+    type: 'work',
+    category: 'Play',
+    description: 'Actor.'
+  },
+  {
     id: 'hell-walk-2018',
     year: '2018',
-    title: 'Hell Walk',
+    title: 'Hell Walk (《地獄行》)',
     subtitle: 'Lamps Theatre',
     type: 'work',
     category: 'Play',
@@ -210,7 +256,7 @@ export const WORKS_AND_AWARDS: TimelineEntry[] = [
   {
     id: 'future-vault-2018',
     year: '2018',
-    title: 'Future Vault',
+    title: 'Future Vault (《未來金庫》)',
     subtitle: 'The Hong Kong Association of Banks x BGCA',
     type: 'work',
     category: 'Play',
@@ -219,7 +265,7 @@ export const WORKS_AND_AWARDS: TimelineEntry[] = [
   {
     id: 'swallow-2017',
     year: '2017',
-    title: 'The Adventure of Swallow',
+    title: 'The Adventure of Swallow (《燕子堡歷險記》)',
     subtitle: 'Hong Kong Financial Literacy Month x BGCA',
     type: 'work',
     category: 'Play',
@@ -227,24 +273,52 @@ export const WORKS_AND_AWARDS: TimelineEntry[] = [
     image: '/images/Hell Walk/2.jpg'
   },
   {
+    id: 'choice-happiness-2017',
+    year: '2017',
+    title: 'The Choice of Happiness (《幸福的抉擇》)',
+    subtitle: 'Shatin Drama Gala / Lamps Theatre',
+    type: 'work',
+    category: 'Play',
+    description: 'Playwright, Director.'
+  },
+  {
+    id: 'gossip-murder-2017',
+    year: '2017',
+    title: 'The Gossip Murder CaseFiles (《是非殺人事件簿》)',
+    subtitle: 'Cinematic Theatre',
+    type: 'work',
+    category: 'Play',
+    description: 'Playwright.'
+  },
+  {
+    id: 'truth-newsroom-2016',
+    year: '2016',
+    title: 'The Truth Newsroom (《真相編輯室》)',
+    subtitle: 'Shatin Drama Gala / Lamps Theatre',
+    type: 'work',
+    category: 'Play',
+    description: 'Playwright. Exploring press freedom.',
+    image: '/images/Murder in the Cave/4.jpg'
+  },
+  {
     id: 'death-girl-2016',
     year: '2016',
     title: 'Shortlisted, 6th Youth Playwriting Scriptwriting Project',
-    subtitle: 'Work: "The Death of the Girl"',
+    subtitle: 'Work: "The Death of the Girl" (《少女之死》)',
     type: 'award'
   },
   {
     id: 'don-quixote-award-2015',
     year: '2015',
     title: 'Outstanding Award, 9th Chinese Stage Script Writing Competition',
-    subtitle: 'Work: "My Don Quixote Dad"',
+    subtitle: 'Work: "My Don Quixote Dad" (《我的唐吉叔叔》)',
     type: 'award',
     highlight: true
   },
   {
     id: 'don-quixote-work-2015',
     year: '2015',
-    title: 'My Don Quixote Dad',
+    title: 'My Don Quixote Dad (《我的唐吉叔叔》)',
     subtitle: 'Hong Kong Baptist University',
     type: 'work',
     category: 'Play',
