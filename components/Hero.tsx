@@ -5,12 +5,12 @@ import { ChevronDown } from 'lucide-react';
 const Hero: React.FC = () => {
   return (
     <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden bg-background">
-      {/* Background Image - Using '2.jpg' (Adventure of Swallow) as hero background suggestion */}
+      {/* Background Image - Using 'Hell Walk/2.jpg' as hero background */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/70 to-background z-10"></div>
-        <img 
-          src="/images/2.jpg" 
-          alt="Stage Background" 
+        <img
+          src="/images/Hell Walk/2.jpg"
+          alt="Stage Background"
           className="w-full h-full object-cover opacity-50"
           onError={(e) => {
             // Fallback if image not found
@@ -41,24 +41,32 @@ const Hero: React.FC = () => {
           </div>
         </motion.div>
 
-        <motion.div 
+        <motion.div
           className="mt-16"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
         >
-           <a 
-            href="#featured" 
+          <a
+            href="#featured"
             className="group relative inline-flex items-center justify-center px-8 py-3 overflow-hidden font-medium tracking-tighter text-white bg-transparent border border-accent rounded-sm transition-all duration-300 hover:bg-accent"
-           >
-             <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-10"></span>
-             <span className="relative">Explore Works</span>
-           </a>
+          >
+            {/* Background image effect on hover */}
+            <span className="absolute inset-0 w-full h-full transition-all duration-500 ease-out opacity-0 group-hover:opacity-20">
+              <img
+                src="/images/Hell Walk/2.jpg"
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </span>
+            <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-10"></span>
+            <span className="relative">Explore Works</span>
+          </a>
         </motion.div>
       </div>
 
       {/* Scroll Indicator */}
-      <motion.div 
+      <motion.div
         className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-20"
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 2 }}

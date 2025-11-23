@@ -15,10 +15,9 @@ const Navbar: React.FC = () => {
   }, []);
 
   return (
-    <header 
-      className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-        scrolled || isOpen ? 'bg-primary/95 backdrop-blur-sm shadow-lg py-4' : 'bg-transparent py-6'
-      }`}
+    <header
+      className={`fixed w-full top-0 z-50 transition-all duration-300 ${scrolled || isOpen ? 'bg-black/95 backdrop-blur-sm shadow-lg py-4' : 'bg-transparent py-6'
+        }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <a href="#home" className="text-2xl font-serif font-bold text-white tracking-tighter">
@@ -28,10 +27,10 @@ const Navbar: React.FC = () => {
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-8">
           {NAV_ITEMS.map((item) => (
-            <a 
-              key={item.label} 
+            <a
+              key={item.label}
               href={item.href}
-              className="text-sm uppercase tracking-widest text-slate-300 hover:text-accent transition-colors duration-200"
+              className="text-sm uppercase tracking-widest text-white hover:text-accent transition-colors duration-200"
             >
               {item.label}
             </a>
@@ -39,7 +38,7 @@ const Navbar: React.FC = () => {
         </nav>
 
         {/* Mobile Menu Button */}
-        <button 
+        <button
           className="md:hidden text-white"
           onClick={() => setIsOpen(!isOpen)}
         >
@@ -49,13 +48,13 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Nav Overlay */}
       {isOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-primary/95 border-t border-slate-800 p-6 flex flex-col space-y-4 shadow-xl">
+        <div className="md:hidden absolute top-full left-0 w-full bg-black/95 border-t border-slate-800 p-6 flex flex-col space-y-4 shadow-xl">
           {NAV_ITEMS.map((item) => (
-            <a 
-              key={item.label} 
+            <a
+              key={item.label}
               href={item.href}
               onClick={() => setIsOpen(false)}
-              className="text-lg font-medium text-slate-200 hover:text-accent"
+              className="text-lg font-medium text-white hover:text-accent"
             >
               {item.label}
             </a>

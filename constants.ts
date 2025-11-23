@@ -16,14 +16,24 @@ export const BIO_PARAGRAPHS = [
 
 export const EXPERIENCE: ExperienceItem[] = [
   {
-    year: "2022 - 2024",
-    company: "Digital Extremes Ltd.",
-    title: "Game Script Translation & Community Development"
+    year: "2025–present",
+    company: "surtitlelive.com",
+    title: "Developer"
+  },
+  {
+    year: "2025–present",
+    company: "Calgary Hong Kong Arts & Culture Association, Canada",
+    title: "Board of Director"
+  },
+  {
+    year: "2017–present",
+    company: "Lamps Theatre Hong Kong",
+    title: "Playwright & Drama Education Project Manager"
   },
   {
     year: "2017 - 2021",
     company: "The Boys' & Girls' Clubs Association of Hong Kong (Community Creative Learning Centre)",
-    title: "Assistant Program Officer & Drama Education Project Design"
+    title: "Assistant Project Manager and Drama Educator"
   },
   {
     year: "2016 - 2017",
@@ -34,14 +44,37 @@ export const EXPERIENCE: ExperienceItem[] = [
     year: "2014 - 2016",
     company: "Hong Kong Baptist University",
     title: "Student Researcher"
+  },
+  {
+    year: "2014 - 2016",
+    company: "Hong Kong",
+    title: "Teaching Practicum – Liberal Studies"
   }
 ];
 
 // Featured Work: The Wishing Stone
 export const WISHING_STONE_IMAGES = [
-  { src: "/images/wishing_stone_cat.jpg", alt: "Cat puppet from The Wishing Stone" },
-  { src: "/images/wishing_stone_girl.jpg", alt: "Crying girl scene from The Wishing Stone" },
-  { src: "/images/wishing_stone_group.jpg", alt: "Group photo with over 250 attendees" }
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-38-58 2.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-38-58.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-38-59 2.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-38-59.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-39-00 2.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-39-00.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-39-01 2.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-39-01.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-39-02 2.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-39-02.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-39-03.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-39-04 2.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-39-04 3.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-39-04.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-39-05 2.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-39-05.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-39-06 2.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-39-06.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-39-07 2.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-16-39-07.jpg", alt: "The Wishing Stone Scene" },
+  { src: "/images/The Wishing Stone/PHOTO-2025-03-22-23-52-02.jpg", alt: "The Wishing Stone Scene" }
 ];
 
 // Combined list of Works and Awards
@@ -53,9 +86,37 @@ export const WORKS_AND_AWARDS: TimelineEntry[] = [
     subtitle: 'Lamps Theatre',
     type: 'work',
     category: 'Play',
-    description: 'Playwright & Organizer. A community production supported by HKADC and HKJC.',
-    image: '/images/wishing_stone_cat.jpg',
+    description: 'Playwright & Organizer. Supported by Hong Kong Arts Development Council (Emerging Artists Scheme) and The Hong Kong Jockey Club.',
+    image: '/images/The Wishing Stone/PHOTO-2025-03-22-16-39-07 2.jpg',
     highlight: true
+  },
+  {
+    id: 'clowns-calgary-2025',
+    year: '2025',
+    title: 'The Clowns',
+    subtitle: 'Calgary Hong Kong Arts & Culture Association',
+    type: 'work',
+    category: 'Play',
+    description: 'Playwright.',
+    image: '/images/The Clowns/IMG_7423.JPG'
+  },
+  {
+    id: 'memory-2025',
+    year: '2025',
+    title: 'In Search of Memory (Cancelled)',
+    subtitle: 'Lamps Theatre',
+    type: 'work',
+    category: 'Play',
+    description: 'Supported by Hong Kong Arts Development Council (Emerging Artists Scheme).'
+  },
+  {
+    id: 'squirrel-book-2025',
+    year: '2025',
+    title: 'Picture Book: The Squirrel, the Grey Wolf, and the Stone Spirit',
+    subtitle: 'Lamps Theatre',
+    type: 'work',
+    category: 'Publication',
+    description: 'Author.'
   },
   {
     id: 'wgu-2024',
@@ -74,70 +135,19 @@ export const WORKS_AND_AWARDS: TimelineEntry[] = [
     highlight: true
   },
   {
-    id: 'clowns-work-2023',
+    id: 'father-daughter-2023',
     year: '2023',
-    title: 'The Clowns',
-    subtitle: 'Pop Theatre',
-    type: 'work',
-    category: 'Play',
-    description: 'Playwright.'
-  },
-  {
-    id: 'death-girl-2022',
-    year: '2022',
-    title: 'Shortlisted, 6th Youth Playwriting Scriptwriting Project',
-    subtitle: 'Work: "The Death of the Girl"',
-    type: 'award'
-  },
-  {
-    id: 'father-daughter-2022',
-    year: '2022',
     title: 'Father and Daughter',
     subtitle: 'Lamps Theatre',
     type: 'work',
     category: 'Play',
-    description: 'Playwright.'
-  },
-  {
-    id: 'princess-2022',
-    year: '2022',
-    title: 'Princess Hard to Fall (Cancelled)',
-    subtitle: 'Lamps Theatre',
-    type: 'work',
-    category: 'Play',
-    description: 'Playwright.'
-  },
-  {
-    id: 'self-chat-2022',
-    year: '2022',
-    title: 'Self Chat (Cancelled)',
-    subtitle: 'Shatin Drama Gala / Lamps Theatre',
-    type: 'work',
-    category: 'Play',
-    description: 'Playwright.'
-  },
-  {
-    id: 'wishing-grant-2021',
-    year: '2021',
-    title: 'Grant & Venue Sponsorship',
-    subtitle: 'HKADC & HKJC',
-    type: 'grant',
-    description: "Project: 'The Wishing Stone'",
-    highlight: true
-  },
-  {
-    id: 'cave-investigation-2021',
-    year: '2021',
-    title: 'Cave Investigation Operation',
-    subtitle: 'HKAPA',
-    type: 'work',
-    category: 'Play/Research',
-    description: 'Playwright, Actor-Teacher, Researcher.'
+    description: 'Playwright.',
+    image: '/images/Father and Daughter/父 與 女 副本 1930.png'
   },
   {
     id: 'pinecone-2021',
     year: '2021',
-    title: 'Picture Book: Where is the Pinecone?',
+    title: 'Picture Book: Where Is the Pine Cone?',
     subtitle: 'BGCA',
     type: 'work',
     category: 'Publication',
@@ -159,16 +169,7 @@ export const WORKS_AND_AWARDS: TimelineEntry[] = [
     type: 'work',
     category: 'Play',
     description: 'Playwright. Award-winning script.',
-    image: '/images/3.jpg'
-  },
-  {
-    id: 'green-balcony-2020',
-    year: '2020',
-    title: 'Green Balcony',
-    subtitle: 'HKAPA',
-    type: 'work',
-    category: 'Education',
-    description: 'Actor-Teacher.'
+    image: '/images/Dinner Sin/FB_IMG_1603257499408.jpg'
   },
   {
     id: 'murder-cave-2020',
@@ -177,16 +178,18 @@ export const WORKS_AND_AWARDS: TimelineEntry[] = [
     subtitle: 'HKAPA',
     type: 'work',
     category: 'Play',
-    description: 'Playwright, Actor.'
+    description: 'Playwright, Actor.',
+    image: '/images/Murder in the Cave/1.jpg'
   },
   {
-    id: 'glass-zoo-2020',
+    id: 'cave-investigation-2020',
     year: '2020',
-    title: 'The Glass Menagerie (Cancelled)',
-    subtitle: 'Shatin Drama Gala / Lamps Theatre',
+    title: 'Cave Investigation',
+    subtitle: 'HKAPA',
     type: 'work',
-    category: 'Play',
-    description: 'Playwright.'
+    category: 'Play/Research',
+    description: 'Playwright, Actor-Teacher, Researcher.',
+    image: '/images/Cave Investigation Operation - A Process Drama/IMG-20181027-WA0007.jpg'
   },
   {
     id: 'hkapa-scholarship-2019',
@@ -195,70 +198,40 @@ export const WORKS_AND_AWARDS: TimelineEntry[] = [
     type: 'scholarship'
   },
   {
-    id: 'ward-1-2019',
-    year: '2019',
-    title: 'Ward No. 1',
-    subtitle: 'HKAPA',
-    type: 'work',
-    category: 'Play',
-    description: 'Actor.'
-  },
-  {
-    id: 'swallow-2018',
+    id: 'hell-walk-2018',
     year: '2018',
-    title: 'The Adventure of Swallow',
-    subtitle: 'HK Financial Literacy Month x BGCA',
+    title: 'Hell Walk',
+    subtitle: 'Lamps Theatre',
     type: 'work',
     category: 'Play',
-    description: 'Writer & Director. Funded by IEC.',
-    image: '/images/2.jpg'
+    description: 'Playwright, Director. Featuring cardboard set design.',
+    image: '/images/Hell Walk/11.JPG'
   },
   {
     id: 'future-vault-2018',
     year: '2018',
     title: 'Future Vault',
-    subtitle: 'The HK Association of Banks x BGCA',
+    subtitle: 'The Hong Kong Association of Banks x BGCA',
     type: 'work',
     category: 'Play',
     description: 'Playwright, Director.'
   },
   {
-    id: 'hell-walk-2018',
-    year: '2018',
-    title: 'Hell Walk',
-    subtitle: 'Shatin Drama Gala / Lamps Theatre',
-    type: 'work',
-    category: 'Play',
-    description: 'Playwright, Director. Featuring cardboard set design.',
-    image: '/images/11.jpg'
-  },
-  {
-    id: 'choice-happiness-2017',
+    id: 'swallow-2017',
     year: '2017',
-    title: 'The Choice of Happiness',
-    subtitle: 'Shatin Drama Gala / Lamps Theatre',
+    title: 'The Adventure of Swallow',
+    subtitle: 'Hong Kong Financial Literacy Month x BGCA',
     type: 'work',
     category: 'Play',
-    description: 'Playwright, Director.'
+    description: 'Writer & Director. Funded by IEC.',
+    image: '/images/Hell Walk/2.jpg'
   },
   {
-    id: 'gossip-murder-2017',
-    year: '2017',
-    title: 'The Gossip Murder CaseFiles',
-    subtitle: 'Cinematic Theatre',
-    type: 'work',
-    category: 'Play',
-    description: 'Playwright.'
-  },
-  {
-    id: 'truth-newsroom-2016',
+    id: 'death-girl-2016',
     year: '2016',
-    title: 'The Truth Newsroom',
-    subtitle: 'Shatin Drama Gala / Lamps Theatre',
-    type: 'work',
-    category: 'Play',
-    description: 'Playwright. Exploring press freedom.',
-    image: '/images/4.jpg'
+    title: 'Shortlisted, 6th Youth Playwriting Scriptwriting Project',
+    subtitle: 'Work: "The Death of the Girl"',
+    type: 'award'
   },
   {
     id: 'don-quixote-award-2015',
@@ -276,14 +249,23 @@ export const WORKS_AND_AWARDS: TimelineEntry[] = [
     type: 'work',
     category: 'Play',
     description: 'Playwright. Award-winning script.'
+  }
+];
+
+export const EDUCATION: ExperienceItem[] = [
+  {
+    year: "2024–2025",
+    company: "Western Governors University (WGU), United States",
+    title: "Bachelor of Science in Information Technology"
   },
   {
-    id: 'squirrel-book',
-    year: 'N/A',
-    title: 'Picture Book: Squirrel, Wolf, and Stone Spirit',
-    subtitle: 'Lamps Theatre',
-    type: 'work',
-    category: 'Publication',
-    description: 'Author.'
+    year: "2018–2021",
+    company: "The Hong Kong Academy for Performing Arts (HKAPA), Hong Kong",
+    title: "Master of Fine Arts in Drama and Theatre Education"
+  },
+  {
+    year: "2011–2016",
+    company: "Hong Kong Baptist University (HKBU), Hong Kong",
+    title: "Bachelor of Social Sciences (Honours) in Sociology, Bachelor of Education (Honours) in Liberal Studies Teaching, Minor in History"
   }
 ];
