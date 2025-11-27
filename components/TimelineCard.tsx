@@ -55,7 +55,15 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ item }) => {
 
                 <div className="flex-grow">
                     <h4 className={`text-lg font-bold transition-colors ${item.highlight ? 'text-white' : 'text-primary group-hover:text-white'}`}>
-                        {item.title}
+                        {item.title.split(/([\u4e00-\u9fa5《》：]+)/).map((part, i) =>
+                            /[\u4e00-\u9fa5《》：]/.test(part) ? (
+                                <span key={i} className="text-stone-500 text-sm font-normal ml-1">
+                                    {part}
+                                </span>
+                            ) : (
+                                part
+                            )
+                        )}
                     </h4>
                     {item.subtitle && (
                         <p className="text-sm text-stone-400 mt-1">{item.subtitle}</p>
@@ -110,7 +118,19 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ item }) => {
 
                                 <div className="flex-grow">
                                     <p className="text-secondary text-sm leading-relaxed whitespace-pre-wrap">
-                                        {item.description || generatePlaceholder(item.id)}
+                                        {item.description ? (
+                                            item.description.split(/(\*\*.*?\*\*)/).map((part, i) =>
+                                                part.startsWith('**') && part.endsWith('**') ? (
+                                                    <strong key={i} className="font-bold text-primary">
+                                                        {part.slice(2, -2)}
+                                                    </strong>
+                                                ) : (
+                                                    part
+                                                )
+                                            )
+                                        ) : (
+                                            generatePlaceholder(item.id)
+                                        )}
                                     </p>
                                 </div>
                             </div>

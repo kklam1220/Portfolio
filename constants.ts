@@ -90,7 +90,7 @@ export const WORKS_AND_AWARDS: TimelineEntry[] = [
   {
     id: 'memory-2025-cancelled',
     year: '12/2025',
-    title: 'In Search of Memory (Cancelled) (《記憶的痕跡》編作劇場)',
+    title: 'Devising Theatre: In Search of Memory (Cancelled) (《記憶的痕跡》編作劇場)',
     subtitle: 'Lamps Theatre',
     type: 'work',
     category: 'Education Project',
@@ -106,7 +106,7 @@ Supported by Hong Kong Arts Development Council (Emerging Artists Scheme).`,
     subtitle: 'Calgary Hong Kong Arts & Culture Association',
     type: 'work',
     category: 'Play',
-    description: `Playwright: KK Lam
+    description: `Playwright: **KK Lam**
 Director: Tiffany Lai
 Actors: Tiffany Lai, Dennis Chan
 
@@ -126,7 +126,7 @@ With his wedding just around the corner, Kwok Ho encounters an uninvited guest. 
     subtitle: 'Lamps Theatre',
     type: 'work',
     category: 'Play',
-    description: `Concept, Playwright: 林建剛
+    description: `Concept, Playwright: **林建剛 KK Lam**
 Concept, Actor: 陳曉彤
 Producer: 陳顥倡
 Director: 朱啟軒
@@ -178,7 +178,7 @@ Supported by: Hong Kong Arts Development Council (香港藝術發展局)`,
     subtitle: 'Western Governors University',
     type: 'scholarship',
     category: 'Education',
-    description: 'KK Lam was awarded the WGU Tech is Everywhere Scholarship by Western Governors University to pursue a Bachelor of Science in Information Technology degree.',
+    description: '**KK Lam** was awarded the WGU Tech is Everywhere Scholarship by Western Governors University to pursue a Bachelor of Science in Information Technology degree.',
     highlight: true
   },
 
@@ -209,7 +209,7 @@ A mother is found dead in a chair at home, tied up with various items and covere
 
 Credits:
 Director: 黃劍冰
-Playwright: 林建剛
+Playwright: **林建剛 KK Lam**
 Actors: 張至煒, 李耀祺, 張嘉瑩, 梁翠珊, 張妙妙, 戴俊笙
 Stage Manager: Jo Leung
 Production Manager: 歐彩君
@@ -240,7 +240,7 @@ Special Singing: 鄺賢妍`,
     id: 'pinecone-2021',
     year: '2021',
     title: 'Picture Book: Where Is the Pine Cone? (《松果在哪裡？》)',
-    subtitle: 'Published by KK Lam',
+    subtitle: 'Published by **KK Lam**',
     type: 'work',
     category: 'Publication',
     description: `A story about a squirrel preparing for winter.
@@ -254,7 +254,7 @@ eBook version (excerpt): https://www.flipsnack.com/moneymonth/--vc5r333xu3.html`
     subtitle: 'The Hong Kong Academy for Performing Arts',
     type: 'work',
     category: 'Process Drama/ Research',
-    description: `This session served as KK Lam's master's research project, titled:
+    description: `This session served as **KK Lam**'s master's research project, titled:
 An action research project examining how Process Drama can encourage senior secondary students to reflect on moral and philosophical dilemmas.`,
     images: ['/images/Cave Investigation Operation - A Process Drama/IMG-20181027-WA0007.jpg']
   },
@@ -290,10 +290,10 @@ This is a micro-ethnographic drama created via Zoom during the rebound outbreak 
 Before we know how to summarize 2020, in the deep autumn with high skies and clear waters, let's See You Zoom Again and gather interactively online!
 
 Creative Team:
-Devising Director: Wong Yuen Ping^
-Devising Actors: Chan Hiu Yan^, Chan Lai Wah, Fung Sai Kuen, Wong Yat Hei
-Production Members: Tsui Ling Chi, Hung Ka Chak^, Kwok Cheuk Ling, Lam Kin Kong, Wong Ka Yi
-Set & Art: Tsang Man Tung
+Devising Director: 黃婉萍^
+Devising Actors: 陳曉欣^、陳麗華、馮世權、黃逸熹
+Production Members: 徐靈芝、洪家澤^、郭卓靈、**林建剛 KK Lam**、王家兒
+Set & Art: 曾文通
 Composer: Frankie Ho
 Illustration: Karmen Loh
 ^With permission from the School of Drama, HKAPA
@@ -324,9 +324,9 @@ Quota per session:
 A cave accident, a murder case. Forced by helplessness? Unforgivable sin? Guilty, not guilty, who is right, who is wrong? The trial is about to begin. *This trial will be conducted online. Story adapted from: The Case of the Speluncean Explorers.
 
 Credits:
-Playwright: 林建剛 嚴嘉儀
-Director: 林建剛 陳曉彤
-Actors: 陳曉彤, 王家兒, 嚴嘉儀, 林建剛, 莫皓中, 鄧永康, 洪家澤, 鍾益秀, 馮迎臨 （香港執業律師）`,
+Playwright: **林建剛 KK Lam** 嚴嘉儀
+Director: **林建剛 KK Lam** 陳曉彤
+Actors: 陳曉彤, 王家兒, 嚴嘉儀, **林建剛 KK Lam**, 莫皓中, 鄧永康, 洪家澤, 鍾益秀, 馮迎臨 （香港執業律師）`,
     images: ['/images/Murder in the Cave (《洞穴殺人事件》)/poster.jpg']
   },
   {
@@ -341,7 +341,7 @@ Actors: 陳曉彤, 王家兒, 嚴嘉儀, 林建剛, 莫皓中, 鄧永康, 洪家
 Synopsis:
 A father who lost his daughter prepares to visit the Law family. The Law family, hosting this guest, feels extremely uneasy. Facing various ill-intentioned advances, the two fathers begin to discover that their respective daughters each had their secret sides...
 
-Playwright - KK Lam Introduction:
+Playwright - **KK Lam** Introduction:
 Master of Drama Education from HKAPA, former Liberal Studies teacher, currently working in drama education in a non-profit organization.
 
 "Let actors turn the playwright's words into reality on stage."
@@ -397,7 +397,7 @@ Kwong Yin Yin as Shui Shui
 Lam Sze Man as Shui Shui (2)/Doctor/Medic/Passenger
 Chan Hiu Tung as Tiff/Medic/Passenger
 Wong Tsz Ning as Stewardess/Medic
-Lam Kin Kong as Paul/Security/Pilot/Medic
+**Lam Kin Kong (KK Lam)** as Paul/Security/Pilot/Medic
 Chu Kai Hin as Medic/Steven/Police/Passenger/Guide/Old Doctor
 Li Man Lung as Police/Passenger
 Chan Chun On as Passenger/Howard`,
@@ -409,7 +409,7 @@ Chan Chun On as Passenger/Howard`,
     subtitle: 'The Hong Kong Academy for Performing Arts',
     type: 'scholarship',
     category: 'Education',
-    description: 'KK Lam was awarded the HKAPA Alumni Association Scholarship by The Hong Kong Academy for Performing Arts to pursue a Master of Fine Arts in Drama and Theatre Education degree.'
+    description: '**KK Lam** was awarded the HKAPA Alumni Association Scholarship by The Hong Kong Academy for Performing Arts to pursue a Master of Fine Arts in Drama and Theatre Education degree.'
   },
 
   // 2018
@@ -438,8 +438,8 @@ If you could borrow money from your future self, would you "spend future money f
 
 Organizer: The Boys' & Girls' Clubs Association of Hong Kong Community Creative Learning Centre
 Sponsor: Investor and Financial Education Council
-Director: KK Lam
-Playwright: KK Lam
+Director: **KK Lam**
+Playwright: **KK Lam**
 
 Cast:
 Tang Tin Sum, Sin Dik Sang, Cheng Ka Yi
@@ -463,8 +463,8 @@ A third-rate secondary school, some marginalized oddballs, a group of losers who
 Is the eternal fire of hell more terrible, or is the endless suffering of the human world more unbearable?
 
 Producer: Au Choi Kwan
-Playwright: KK Lam
-Director: KK Lam
+Playwright: **KK Lam**
+Director: **KK Lam**
 Actors: Tang Tin Sum, Sin Dik Sang, Cheng Ka Yi, Tsui San Ming, Li Wing Ni, Cheng Yuet, Ng Ho Yan, Ma Cheuk Nam`,
     images: ['/images/Hell Walk (《地獄行》)/poster.jpg']
   },
@@ -511,8 +511,8 @@ Scene 5: Truth...
 Scene 6: Really Want (Homophone for Truth)
 Scene 7: "Truth"
 
-Director: KK Lam
-Playwright: KK Lam
+Director: **KK Lam**
+Playwright: **KK Lam**
 Stage Manager: Au Choi Kwan
 Stage Design: Ng Ho Yan
 Lighting: Sin Dik Sang
@@ -524,7 +524,7 @@ Sin Dik Sang as Intern Reporter - Kwok Sang
 Wong Siu Jin as Young Master Tung
 Cheng Ka Yi as Lek Mui
 Ng Ho Yan as Mrs. Chan
-KK Lam as Senior Brother`,
+**KK Lam** as Senior Brother`,
     images: ['/images/真相編輯室/poster.jpg']
   },
 
@@ -537,7 +537,7 @@ KK Lam as Senior Brother`,
     type: 'award',
     category: 'Play',
     description: `Outstanding Award.
-Playwright: KK Lam.`,
+Playwright: **KK Lam**.`,
     highlight: true
   }
 ];
