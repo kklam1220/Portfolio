@@ -36,7 +36,7 @@ export interface TimelineEntry {
   subtitle?: string; // Organization or Award body
   description?: string;
   category?: string;
-  image?: string;
+  images?: string[];
   type: 'work' | 'award' | 'grant' | 'scholarship';
   highlight?: boolean;
 }

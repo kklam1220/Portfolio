@@ -111,7 +111,7 @@ Synopsis:
 There are all kinds of magical stones in the world! Fifi, a fifth-grade primary school student, accidentally gets a wishing stone that can grant any wish. This playful and lively girl can finally get rid of the trouble of homework! However, the way wishes are granted gradually gets out of control, and she loses her most beloved thing because of it. Under the guidance of her grandmother, she will embark on a journey to find "real magic", learn growth, courage, and how to make up for past mistakes with her own efforts.
 
 Supported by Hong Kong Arts Development Council (Emerging Artists Scheme) and The Hong Kong Jockey Club.`,
-    image: '/images/The Wishing Stone/poster.png',
+    images: WISHING_STONE_IMAGES.map(img => img.src),
     highlight: true
   },
   {
@@ -129,7 +129,10 @@ Actors: Tiffany Lai, Dennis Chan
 
 Synopsis:
 With his wedding just around the corner, Kwok Ho encounters an uninvited guest. After a long separation, Siu Yan brings him an unexpected surprise. Faced with the past, where will the two of them go? This is a story about letting go, or the inability to let go.`,
-    image: '/images/The Clowns/poster.jpg'
+    images: [
+      '/images/The Clowns/IMG_7423.JPG',
+      '/images/The Clowns/IMG_7737.JPG'
+    ]
   },
   {
     id: 'memory-2025-cancelled',
@@ -141,7 +144,6 @@ With his wedding just around the corner, Kwok Ho encounters an uninvited guest. 
     description: `"In Search of Memory" is a devised ethnographic theatre project exploring themes of personal trauma and memory. Inspired by Eric Kandel's autobiography "In Search of Memory", the project integrates theories from anthropology, sociology, and neuroscience. It aims to collect material using qualitative research methods and present it through theatrical performance and installation art. The production process involves practice-as-research, examining ethical issues in theatre creation involving personal trauma and privacy.
 
 Supported by Hong Kong Arts Development Council (Emerging Artists Scheme).`,
-    image: '/images/In Search of Memory (Cancelled)/poster_v1.png'
   },
   {
     id: 'squirrel-book-2025',
@@ -164,7 +166,7 @@ The little Stone Spirit realizes he is a Light Stone Spirit—one who can bring 
 Production Credits:
 Produced by: Lamps Theatre (臨時戲班)
 Supported by: Hong Kong Arts Development Council (香港藝術發展局)`,
-    image: '/images/The Squirrel, the Grey Wolf, and the Stone Spirit (《松鼠 灰狼 石精靈》)/1.jpeg'
+    images: ['/images/The Squirrel, the Grey Wolf, and the Stone Spirit (《松鼠 灰狼 石精靈》)/1.jpeg']
   },
 
   // 2024
@@ -195,7 +197,7 @@ Actors: 張至煒, 李耀祺, 張嘉瑩, 梁翠珊, 張妙妙, 戴俊笙
 Stage Manager: Jo Leung
 Production Manager: 歐彩君
 Special Singing: 鄺賢妍`,
-    image: '/images/Father and Daughter (《父與女》)/父 與 女 副本 1930.png'
+    images: ['/images/Father and Daughter (《父與女》)/父 與 女 副本 1930.png']
   },
   {
     id: 'clowns-award-2023',
@@ -206,7 +208,7 @@ Special Singing: 鄺賢妍`,
     category: 'Play',
     description: `Outstanding Script Award & Shortlisted Performance.
 Director: Jacky Cheung Chi Kit.`,
-    image: '/images/9th Heart River Play Competition/《The-Clowns》林建剛-2.png',
+    images: ['/images/9th Heart River Play Competition/《The-Clowns》林建剛-2.png'],
     highlight: true
   },
 
@@ -240,7 +242,7 @@ Director: Jacky Cheung Chi Kit.`,
     category: 'Publication',
     description: `A story about a squirrel preparing for winter.
 eBook version (excerpt): https://www.flipsnack.com/moneymonth/--vc5r333xu3.html`,
-    image: '/images/Picture Book Where Is the Pine Cone (《松果在哪裡？》)/Cover.jpg'
+    images: ['/images/Picture Book Where Is the Pine Cone (《松果在哪裡？》)/Cover.jpg']
   },
 
   // 2020
@@ -253,7 +255,7 @@ eBook version (excerpt): https://www.flipsnack.com/moneymonth/--vc5r333xu3.html`
     category: 'Play',
     description: `Outstanding Script Award & Winning Script Public Performance.
 Playwright: KK Lam.`,
-    image: '/images/6th Heart River Play Competition/poster.jpg',
+    images: ['/images/6th Heart River Play Competition/poster.jpg'],
     highlight: true
   },
   {
@@ -270,7 +272,7 @@ Credits:
 Playwright: 林建剛 嚴嘉儀
 Director: 林建剛 陳曉彤
 Actors: 陳曉彤, 王家兒, 嚴嘉儀, 林建剛, 莫皓中, 鄧永康, 洪家澤, 鍾益秀, 馮迎臨 （香港執業律師）`,
-    image: '/images/Murder in the Cave (《洞穴殺人事件》)/poster.jpg'
+    images: ['/images/Murder in the Cave (《洞穴殺人事件》)/poster.jpg']
   },
   {
     id: 'cave-investigation-2020',
@@ -280,7 +282,7 @@ Actors: 陳曉彤, 王家兒, 嚴嘉儀, 林建剛, 莫皓中, 鄧永康, 洪家
     type: 'work',
     category: 'Play/Research',
     description: 'Playwright, Actor-Teacher, Researcher.',
-    image: '/images/Cave Investigation Operation - A Process Drama/IMG-20181027-WA0007.jpg'
+    images: ['/images/Cave Investigation Operation - A Process Drama/IMG-20181027-WA0007.jpg']
   },
   {
     id: 'green-balcony-2020',
@@ -327,7 +329,7 @@ Actors: 陳曉彤, 王家兒, 嚴嘉儀, 林建剛, 莫皓中, 鄧永康, 洪家
     type: 'work',
     category: 'Play',
     description: 'Playwright, Director. Featuring cardboard set design.',
-    image: '/images/Hell Walk/11.JPG'
+    images: ['/images/Hell Walk/11.JPG']
   },
   {
     id: 'future-vault-2018',
@@ -348,7 +350,7 @@ Actors: 陳曉彤, 王家兒, 嚴嘉儀, 林建剛, 莫皓中, 鄧永康, 洪家
     type: 'work',
     category: 'Play',
     description: 'Writer & Director. Funded by IEC.',
-    image: '/images/Hell Walk/2.jpg'
+    images: ['/images/Hell Walk/2.jpg']
   },
   {
     id: 'choice-happiness-2017',
@@ -378,7 +380,7 @@ Actors: 陳曉彤, 王家兒, 嚴嘉儀, 林建剛, 莫皓中, 鄧永康, 洪家
     type: 'work',
     category: 'Play',
     description: 'Playwright. Exploring press freedom.',
-    image: '/images/Murder in the Cave/4.jpg'
+    images: ['/images/Murder in the Cave/4.jpg']
   },
   {
     id: 'death-girl-2016',
