@@ -111,7 +111,7 @@ Synopsis:
 There are all kinds of magical stones in the world! Fifi, a fifth-grade primary school student, accidentally gets a wishing stone that can grant any wish. This playful and lively girl can finally get rid of the trouble of homework! However, the way wishes are granted gradually gets out of control, and she loses her most beloved thing because of it. Under the guidance of her grandmother, she will embark on a journey to find "real magic", learn growth, courage, and how to make up for past mistakes with her own efforts.
 
 Supported by Hong Kong Arts Development Council (Emerging Artists Scheme) and The Hong Kong Jockey Club.`,
-    images: WISHING_STONE_IMAGES.map(img => img.src),
+    images: ['/images/The Wishing Stone/info/poster.png'],
     highlight: true
   },
   {
