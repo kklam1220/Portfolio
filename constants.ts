@@ -144,6 +144,7 @@ With his wedding just around the corner, Kwok Ho encounters an uninvited guest. 
     description: `"In Search of Memory" is a devised ethnographic theatre project exploring themes of personal trauma and memory. Inspired by Eric Kandel's autobiography "In Search of Memory", the project integrates theories from anthropology, sociology, and neuroscience. It aims to collect material using qualitative research methods and present it through theatrical performance and installation art. The production process involves practice-as-research, examining ethical issues in theatre creation involving personal trauma and privacy.
 
 Supported by Hong Kong Arts Development Council (Emerging Artists Scheme).`,
+    images: ['/images/In Search of Memory (Cancelled)/info/poster_v1.png']
   },
   {
     id: 'squirrel-book-2025',
