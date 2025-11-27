@@ -98,6 +98,148 @@ export const WORKS_AND_AWARDS: TimelineEntry[] = [
     highlight: true
   },
   {
+    id: 'ws-2025-play',
+    year: '2025',
+    title: 'The Wishing Stone',
+    subtitle: 'Lamps Theatre',
+    type: 'work',
+    category: 'Play',
+    description: `Concept, Playwright: 林建剛
+Concept, Actor: 陳曉彤
+Producer: 陳顥倡
+Director: 朱啟軒
+Actors: 葉向玲, 林嘉婷
+Actor, Magic Consultant: 洪家澤
+Stage & Costume Design: 游倬宜
+Lighting Design: Kenny
+Sound Design, Composer: 譚柏烜
+Key Visual Design: DirtyWork
+Stage Manager: 曾念慈
+Admin: 歐彩君
+
+Synopsis:
+There are all kinds of magical stones in the world! Fifi, a fifth-grade primary school student, accidentally gets a wishing stone that can grant any wish. This playful and lively girl can finally get rid of the trouble of homework! However, the way wishes are granted gradually gets out of control, and she loses her most beloved thing because of it. Under the guidance of her grandmother, she will embark on a journey to find "real magic", learn growth, courage, and how to make up for past mistakes with her own efforts.`,
+    image: '/images/The Wishing Stone/poster.png'
+  },
+  {
+    id: 'clowns-2025',
+    year: '2025',
+    title: 'The Clowns',
+    subtitle: 'Calgary Hong Kong Arts & Culture Association',
+    type: 'work',
+    category: 'Play',
+    description: `Playwright: KK Lam
+Director: Tiffany Lai
+Actors: Tiffany Lai, Dennis Chan
+
+"The Clown" is the winning script of the 9th "Heart River Cultivation Programme".
+
+Synopsis:
+With his wedding just around the corner, Kwok Ho encounters an uninvited guest. After a long separation, Siu Yan brings him an unexpected surprise. Faced with the past, where will the two of them go? This is a story about letting go, or the inability to let go.`,
+    image: '/images/The Clowns/poster.jpg'
+  },
+  {
+    id: 'memory-2025-cancelled',
+    year: '2025',
+    title: 'In Search of Memory (Cancelled)',
+    subtitle: 'Lamps Theatre',
+    type: 'work',
+    category: 'Play',
+    description: `"In Search of Memory" is a devised ethnographic theatre project exploring themes of personal trauma and memory. Inspired by Eric Kandel's autobiography "In Search of Memory", the project integrates theories from anthropology, sociology, and neuroscience. It aims to collect material using qualitative research methods and present it through theatrical performance and installation art. The production process involves practice-as-research, examining ethical issues in theatre creation involving personal trauma and privacy.`,
+    image: '/images/In Search of Memory (Cancelled)/poster_v1.png'
+  },
+  {
+    id: 'squirrel-book-2025',
+    year: '2025',
+    title: 'Picture Book: The Squirrel, the Grey Wolf, and the Stone Spirit (《松鼠 灰狼 石精靈》)',
+    subtitle: 'Lamps Theatre',
+    type: 'work',
+    category: 'Publication',
+    description: `Story Synopsis:
+On the vast grasslands, a tiny Stone Spirit sets out on a journey to discover who he truly is.
+
+Every summer, the Stone Spirits gather to showcase their magical powers—fire, ice, flowers, and more. But the smallest among them has no idea what his own magic is, and leaves the festival feeling lost and uncertain. Encouraged by the Rose Stone Spirit and the words of the wise Basalt Elder, he travels to the Ancient Forest in search of the Mirror of Answers.
+
+Along the way, he meets an energetic Squirrel obsessed with finding the world’s most delicious cookie, and a solitary Wolf whom they rescue from danger. Together, the unlikely trio crosses rivers, cliffs, and darkness, learning courage, patience, and trust.
+
+When disaster strikes and the Squirrel and Wolf fall into a deep cavern, the little Stone Spirit must face his fears alone. In the darkness, he discovers a soft glow rising from within himself—his true magic. Guided by this new light, he finds his friends and finally reaches the Mirror of Answers. There, they each learn something important: the sweetness of sharing, the strength of believing in oneself, and the meaning of family.
+
+The little Stone Spirit realizes he is a Light Stone Spirit—one who can bring hope to others. And though the journey has ended, a new adventure awaits just around the corner.
+
+Production Credits:
+Produced by: Lamps Theatre (臨時戲班)
+Supported by: Hong Kong Arts Development Council (香港藝術發展局)`,
+    image: '/images/The Squirrel, the Grey Wolf, and the Stone Spirit (《松鼠 灰狼 石精靈》)/1.jpeg'
+  },
+  {
+    id: 'father-daughter-2023',
+    year: '2023',
+    title: 'Father and Daughter (《父與女》)',
+    subtitle: 'Lamps Theatre',
+    type: 'work',
+    category: 'Play',
+    description: `Synopsis:
+A mother is found dead in a chair at home, tied up with various items and covered in bruises from beating. While the police hunt for the suspect, a reporter investigates the reasons behind the incident. What deep hatred exists between the deceased and the murderer? Based on a true case.
+
+Credits:
+Director: 黃劍冰
+Playwright: 林建剛
+Actors: 張至煒, 李耀祺, 張嘉瑩, 梁翠珊, 張妙妙, 戴俊笙
+Stage Manager: Jo Leung
+Production Manager: 歐彩君
+Special Singing: 鄺賢妍`,
+    image: '/images/Father and Daughter (《父與女》)/父 與 女 副本 1930.png'
+  },
+  {
+    id: 'clowns-award-2023-9th',
+    year: '2023',
+    title: '9th Heart River Play Competition (Shortlisted Performance)',
+    subtitle: 'Pop Theatre',
+    type: 'award',
+    category: 'Play',
+    description: `Shortlisted Performance: "The Clowns" by KK Lam.
+Director: Jacky Cheung Chi Kit.`,
+    image: '/images/9th Heart River Play Competition/《The-Clowns》林建剛-2.png'
+  },
+  {
+    id: 'pinecone-2021',
+    year: '2021',
+    title: 'Picture Book: Where Is the Pine Cone? (《松果在哪裡？》)',
+    subtitle: 'Published by KK Lam',
+    type: 'work',
+    category: 'Publication',
+    description: `A story about a squirrel preparing for winter.
+eBook version (excerpt): https://www.flipsnack.com/moneymonth/--vc5r333xu3.html`,
+    image: '/images/Picture Book Where Is the Pine Cone (《松果在哪裡？》)/Cover.jpg'
+  },
+  {
+    id: 'dinner-sin-award-2020-6th',
+    year: '2020',
+    title: '6th Heart River Play Competition (Winning Script Public Performance)',
+    subtitle: 'Tuen Mun Town Hall Venue Partnership Scheme',
+    type: 'work',
+    category: 'Play',
+    description: `Winning script of the 6th "Heart River Cultivation Programme".
+Work: "Dinner Sin" (《飯罪》) - KK Lam.`,
+    image: '/images/6th Heart River Play Competition/poster.jpg'
+  },
+  {
+    id: 'murder-cave-2020',
+    year: '2020',
+    title: 'Murder in the Cave (《洞穴殺人事件》)',
+    subtitle: 'HKAPA',
+    type: 'work',
+    category: 'Play',
+    description: `Synopsis:
+A cave accident, a murder case. Forced by helplessness? Unforgivable sin? Guilty, not guilty, who is right, who is wrong? The trial is about to begin. *This trial will be conducted online. Story adapted from: The Case of the Speluncean Explorers.
+
+Credits:
+Playwright: 林建剛 嚴嘉儀
+Director: 林建剛 陳曉彤
+Actors: 陳曉彤, 王家兒, 嚴嘉儀, 林建剛, 莫皓中, 鄧永康, 洪家澤, 鍾益秀, 馮迎臨 （香港執業律師）`,
+    image: '/images/Murder in the Cave (《洞穴殺人事件》)/poster.jpg'
+  },
+  {
     id: 'clowns-calgary-2025',
     year: '2025',
     title: 'The Clowns',
