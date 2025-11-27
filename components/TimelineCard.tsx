@@ -85,12 +85,12 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ item }) => {
                             <div className="flex flex-col md:flex-row gap-6">
                                 {/* Image if exists */}
                                 {images.length > 0 && (
-                                    <div className="relative w-full md:w-48 h-72 flex-shrink-0 rounded-sm overflow-hidden bg-black group/image">
+                                    <div className="relative w-full md:w-48 h-72 flex-shrink-0 rounded-sm bg-black group/image z-0 hover:z-20">
                                         <img
                                             src={images[imageIndex]}
                                             alt={item.title}
                                             onClick={handleNextImage}
-                                            className={`w-full h-full object-contain transform transition-transform duration-500 ${hasMultipleImages ? 'cursor-pointer' : ''} group-hover/image:scale-110`}
+                                            className={`w-full h-full object-contain transform transition-transform duration-500 ${hasMultipleImages ? 'cursor-pointer' : ''} group-hover/image:scale-150`}
                                             onError={(e) => (e.target as HTMLImageElement).src = 'https://picsum.photos/seed/fallback/200/200'}
                                         />
 
