@@ -273,7 +273,7 @@ An action research project examining how Process Drama can encourage senior seco
     id: 'see-you-zoom-2020',
     year: '09/2020',
     title: 'See You Zoom',
-    subtitle: 'Zoom',
+    subtitle: 'WONG Estella 黃婉萍',
     type: 'work',
     category: 'Play',
     description: `A Micro-Ethnographic Drama by a Hong Kong Resident
@@ -334,7 +334,7 @@ Actors: 陳曉彤, 王家兒, 嚴嘉儀, **林建剛 KK Lam**, 莫皓中, 鄧永
     year: '06/2020',
     title: 'Dinner Sin (《飯罪》)',
     subtitle: '6th Heart River Play Competition',
-    type: 'work',
+    type: 'award',
     category: 'Play',
     description: `"Dinner Sin" is a tense and exciting script; even during the table read, we felt the intensity! If you want to know how twisty and turny the story development is, remember to buy tickets to support us!
 
@@ -475,9 +475,10 @@ Actors: Tang Tin Sum, Sin Dik Sang, Cheng Ka Yi, Tsui San Ming, Li Wing Ni, Chen
     year: '06/2017',
     title: 'Shortlisted, 6th Youth Playwriting Scriptwriting Project: The Gossip Murder CaseFiles (《是非殺人事件簿》)',
     subtitle: 'Cinematic Theatre',
-    type: 'work',
+    type: 'award',
     category: 'Play',
-    description: 'Playwright.'
+    description: 'Playwright.',
+    highlight: true
   },
   {
     id: 'choice-happiness-2017',
