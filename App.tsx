@@ -273,18 +273,18 @@ function App() {
                         <div className="flex flex-col md:flex-row gap-6">
                           {/* Image if exists */}
                           {item.image && (
-                            <div className="w-full md:w-48 h-32 flex-shrink-0 rounded-sm overflow-hidden bg-black">
+                            <div className="w-full md:w-48 h-72 flex-shrink-0 rounded-sm overflow-hidden bg-black group/image">
                               <img
                                 src={item.image}
                                 alt={item.title}
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-contain transform transition-transform duration-500 group-hover/image:scale-110"
                                 onError={(e) => (e.target as HTMLImageElement).src = 'https://picsum.photos/seed/fallback/200/200'}
                               />
                             </div>
                           )}
 
                           <div className="flex-grow">
-                            <p className="text-secondary text-sm leading-relaxed italic">
+                            <p className="text-secondary text-sm leading-relaxed whitespace-pre-wrap">
                               {item.description || generatePlaceholder(item.id)}
                             </p>
                           </div>
@@ -318,37 +318,37 @@ function App() {
           </div>
 
           {/* FormBold Contact Form */}
-          <form 
-            action="https://formbold.com/s/9xlNj" 
+          <form
+            action="https://formbold.com/s/9xlNj"
             method="POST"
             className="text-left space-y-4 bg-surface p-8 border border-stone-800 rounded-sm shadow-2xl"
           >
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <label className="block text-xs uppercase tracking-widest text-stone-500 mb-2">Name</label>
-                <input 
-                  type="text" 
+                <input
+                  type="text"
                   name="name"
                   placeholder="Your Name"
-                  className="w-full bg-background border border-stone-700 text-primary p-3 focus:border-accent outline-none transition-colors" 
+                  className="w-full bg-background border border-stone-700 text-primary p-3 focus:border-accent outline-none transition-colors"
                   required
                 />
               </div>
               <div>
                 <label className="block text-xs uppercase tracking-widest text-stone-500 mb-2">Email</label>
-                <input 
-                  type="email" 
+                <input
+                  type="email"
                   name="email"
                   placeholder="Email"
-                  className="w-full bg-background border border-stone-700 text-primary p-3 focus:border-accent outline-none transition-colors" 
+                  className="w-full bg-background border border-stone-700 text-primary p-3 focus:border-accent outline-none transition-colors"
                   required
                 />
               </div>
             </div>
             <div>
               <label className="block text-xs uppercase tracking-widest text-stone-500 mb-2">Subject</label>
-              <input 
-                type="text" 
+              <input
+                type="text"
                 name="subject"
                 placeholder="Subject"
                 className="w-full bg-background border border-stone-700 text-primary p-3 focus:border-accent outline-none transition-colors"
@@ -357,15 +357,15 @@ function App() {
             </div>
             <div>
               <label className="block text-xs uppercase tracking-widest text-stone-500 mb-2">Message</label>
-              <textarea 
+              <textarea
                 name="message"
-                rows={4} 
+                rows={4}
                 placeholder="Type your message"
                 className="w-full bg-background border border-stone-700 text-primary p-3 focus:border-accent outline-none transition-colors"
                 required
               ></textarea>
             </div>
-            <button 
+            <button
               type="submit"
               className="w-full bg-accent hover:bg-accentHover text-white font-bold py-3 uppercase tracking-widest transition-colors"
             >

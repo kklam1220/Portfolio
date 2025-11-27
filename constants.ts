@@ -86,17 +86,7 @@ export const WISHING_STONE_IMAGES = [
 // Combined list of Works and Awards
 // Combined list of Works and Awards
 export const WORKS_AND_AWARDS: TimelineEntry[] = [
-  {
-    id: 'ws-2025',
-    year: '2025',
-    title: 'The Wishing Stone',
-    subtitle: 'Lamps Theatre',
-    type: 'work',
-    category: 'Play',
-    description: 'Playwright & Organizer. Supported by Hong Kong Arts Development Council (Emerging Artists Scheme) and The Hong Kong Jockey Club.',
-    image: '/images/The Wishing Stone/PHOTO-2025-03-22-16-39-07 2.jpg',
-    highlight: true
-  },
+  // 2025
   {
     id: 'ws-2025-play',
     year: '2025',
@@ -118,8 +108,11 @@ Stage Manager: 曾念慈
 Admin: 歐彩君
 
 Synopsis:
-There are all kinds of magical stones in the world! Fifi, a fifth-grade primary school student, accidentally gets a wishing stone that can grant any wish. This playful and lively girl can finally get rid of the trouble of homework! However, the way wishes are granted gradually gets out of control, and she loses her most beloved thing because of it. Under the guidance of her grandmother, she will embark on a journey to find "real magic", learn growth, courage, and how to make up for past mistakes with her own efforts.`,
-    image: '/images/The Wishing Stone/poster.png'
+There are all kinds of magical stones in the world! Fifi, a fifth-grade primary school student, accidentally gets a wishing stone that can grant any wish. This playful and lively girl can finally get rid of the trouble of homework! However, the way wishes are granted gradually gets out of control, and she loses her most beloved thing because of it. Under the guidance of her grandmother, she will embark on a journey to find "real magic", learn growth, courage, and how to make up for past mistakes with her own efforts.
+
+Supported by Hong Kong Arts Development Council (Emerging Artists Scheme) and The Hong Kong Jockey Club.`,
+    image: '/images/The Wishing Stone/poster.png',
+    highlight: true
   },
   {
     id: 'clowns-2025',
@@ -145,7 +138,9 @@ With his wedding just around the corner, Kwok Ho encounters an uninvited guest. 
     subtitle: 'Lamps Theatre',
     type: 'work',
     category: 'Play',
-    description: `"In Search of Memory" is a devised ethnographic theatre project exploring themes of personal trauma and memory. Inspired by Eric Kandel's autobiography "In Search of Memory", the project integrates theories from anthropology, sociology, and neuroscience. It aims to collect material using qualitative research methods and present it through theatrical performance and installation art. The production process involves practice-as-research, examining ethical issues in theatre creation involving personal trauma and privacy.`,
+    description: `"In Search of Memory" is a devised ethnographic theatre project exploring themes of personal trauma and memory. Inspired by Eric Kandel's autobiography "In Search of Memory", the project integrates theories from anthropology, sociology, and neuroscience. It aims to collect material using qualitative research methods and present it through theatrical performance and installation art. The production process involves practice-as-research, examining ethical issues in theatre creation involving personal trauma and privacy.
+
+Supported by Hong Kong Arts Development Council (Emerging Artists Scheme).`,
     image: '/images/In Search of Memory (Cancelled)/poster_v1.png'
   },
   {
@@ -171,6 +166,18 @@ Produced by: Lamps Theatre (臨時戲班)
 Supported by: Hong Kong Arts Development Council (香港藝術發展局)`,
     image: '/images/The Squirrel, the Grey Wolf, and the Stone Spirit (《松鼠 灰狼 石精靈》)/1.jpeg'
   },
+
+  // 2024
+  {
+    id: 'wgu-2024',
+    year: '2024',
+    title: 'WGU Tech is Everywhere Scholarship',
+    subtitle: 'Western Governors University',
+    type: 'scholarship',
+    highlight: true
+  },
+
+  // 2023
   {
     id: 'father-daughter-2023',
     year: '2023',
@@ -191,108 +198,19 @@ Special Singing: 鄺賢妍`,
     image: '/images/Father and Daughter (《父與女》)/父 與 女 副本 1930.png'
   },
   {
-    id: 'clowns-award-2023-9th',
-    year: '2023',
-    title: '9th Heart River Play Competition (Shortlisted Performance)',
-    subtitle: 'Pop Theatre',
-    type: 'award',
-    category: 'Play',
-    description: `Shortlisted Performance: "The Clowns" by KK Lam.
-Director: Jacky Cheung Chi Kit.`,
-    image: '/images/9th Heart River Play Competition/《The-Clowns》林建剛-2.png'
-  },
-  {
-    id: 'pinecone-2021',
-    year: '2021',
-    title: 'Picture Book: Where Is the Pine Cone? (《松果在哪裡？》)',
-    subtitle: 'Published by KK Lam',
-    type: 'work',
-    category: 'Publication',
-    description: `A story about a squirrel preparing for winter.
-eBook version (excerpt): https://www.flipsnack.com/moneymonth/--vc5r333xu3.html`,
-    image: '/images/Picture Book Where Is the Pine Cone (《松果在哪裡？》)/Cover.jpg'
-  },
-  {
-    id: 'dinner-sin-award-2020-6th',
-    year: '2020',
-    title: '6th Heart River Play Competition (Winning Script Public Performance)',
-    subtitle: 'Tuen Mun Town Hall Venue Partnership Scheme',
-    type: 'work',
-    category: 'Play',
-    description: `Winning script of the 6th "Heart River Cultivation Programme".
-Work: "Dinner Sin" (《飯罪》) - KK Lam.`,
-    image: '/images/6th Heart River Play Competition/poster.jpg'
-  },
-  {
-    id: 'murder-cave-2020',
-    year: '2020',
-    title: 'Murder in the Cave (《洞穴殺人事件》)',
-    subtitle: 'HKAPA',
-    type: 'work',
-    category: 'Play',
-    description: `Synopsis:
-A cave accident, a murder case. Forced by helplessness? Unforgivable sin? Guilty, not guilty, who is right, who is wrong? The trial is about to begin. *This trial will be conducted online. Story adapted from: The Case of the Speluncean Explorers.
-
-Credits:
-Playwright: 林建剛 嚴嘉儀
-Director: 林建剛 陳曉彤
-Actors: 陳曉彤, 王家兒, 嚴嘉儀, 林建剛, 莫皓中, 鄧永康, 洪家澤, 鍾益秀, 馮迎臨 （香港執業律師）`,
-    image: '/images/Murder in the Cave (《洞穴殺人事件》)/poster.jpg'
-  },
-  {
-    id: 'clowns-calgary-2025',
-    year: '2025',
-    title: 'The Clowns',
-    subtitle: 'Calgary Hong Kong Arts & Culture Association',
-    type: 'work',
-    category: 'Play',
-    description: 'Playwright.',
-    image: '/images/The Clowns/IMG_7423.JPG'
-  },
-  {
-    id: 'memory-2025',
-    year: '2025',
-    title: 'In Search of Memory (Cancelled)',
-    subtitle: 'Lamps Theatre',
-    type: 'work',
-    category: 'Play',
-    description: 'Supported by Hong Kong Arts Development Council (Emerging Artists Scheme).'
-  },
-  {
-    id: 'squirrel-book-2025',
-    year: '2025',
-    title: 'Picture Book: The Squirrel, the Grey Wolf, and the Stone Spirit (《松鼠 灰狼 石精靈》)',
-    subtitle: 'Lamps Theatre',
-    type: 'work',
-    category: 'Publication',
-    description: 'Author.'
-  },
-  {
-    id: 'wgu-2024',
-    year: '2024',
-    title: 'WGU Tech is Everywhere Scholarship',
-    subtitle: 'Western Governors University',
-    type: 'scholarship',
-    highlight: true
-  },
-  {
     id: 'clowns-award-2023',
     year: '2023',
-    title: 'Outstanding Script Award, 9th Heart River Play Competition',
-    subtitle: 'Work: "The Clowns"',
+    title: 'The Clowns',
+    subtitle: '9th Heart River Play Competition',
     type: 'award',
+    category: 'Play',
+    description: `Outstanding Script Award & Shortlisted Performance.
+Director: Jacky Cheung Chi Kit.`,
+    image: '/images/9th Heart River Play Competition/《The-Clowns》林建剛-2.png',
     highlight: true
   },
-  {
-    id: 'father-daughter-2023',
-    year: '2023',
-    title: 'Father and Daughter (《父與女》)',
-    subtitle: 'Lamps Theatre',
-    type: 'work',
-    category: 'Play',
-    description: 'Playwright.',
-    image: '/images/Father and Daughter/父 與 女 副本 1930.png'
-  },
+
+  // 2022
   {
     id: 'princess-2022',
     year: '2022',
@@ -311,32 +229,32 @@ Actors: 陳曉彤, 王家兒, 嚴嘉儀, 林建剛, 莫皓中, 鄧永康, 洪家
     category: 'Play',
     description: 'Playwright.'
   },
+
+  // 2021
   {
     id: 'pinecone-2021',
     year: '2021',
     title: 'Picture Book: Where Is the Pine Cone? (《松果在哪裡？》)',
-    subtitle: 'BGCA',
+    subtitle: 'Published by KK Lam',
     type: 'work',
     category: 'Publication',
-    description: 'Author.'
+    description: `A story about a squirrel preparing for winter.
+eBook version (excerpt): https://www.flipsnack.com/moneymonth/--vc5r333xu3.html`,
+    image: '/images/Picture Book Where Is the Pine Cone (《松果在哪裡？》)/Cover.jpg'
   },
+
+  // 2020
   {
     id: 'dinner-sin-award-2020',
     year: '2020',
-    title: 'Outstanding Script Award, 6th Heart River Play Competition',
-    subtitle: 'Work: "Dinner Sin" (《飯罪》)',
-    type: 'award',
-    highlight: true
-  },
-  {
-    id: 'dinner-sin-work-2020',
-    year: '2020',
     title: 'Dinner Sin (《飯罪》)',
-    subtitle: 'Pop Theatre',
-    type: 'work',
+    subtitle: '6th Heart River Play Competition',
+    type: 'award',
     category: 'Play',
-    description: 'Playwright. Award-winning script.',
-    image: '/images/Dinner Sin/FB_IMG_1603257499408.jpg'
+    description: `Outstanding Script Award & Winning Script Public Performance.
+Playwright: KK Lam.`,
+    image: '/images/6th Heart River Play Competition/poster.jpg',
+    highlight: true
   },
   {
     id: 'murder-cave-2020',
@@ -345,8 +263,14 @@ Actors: 陳曉彤, 王家兒, 嚴嘉儀, 林建剛, 莫皓中, 鄧永康, 洪家
     subtitle: 'HKAPA',
     type: 'work',
     category: 'Play',
-    description: 'Playwright, Actor.',
-    image: '/images/Murder in the Cave/1.jpg'
+    description: `Synopsis:
+A cave accident, a murder case. Forced by helplessness? Unforgivable sin? Guilty, not guilty, who is right, who is wrong? The trial is about to begin. *This trial will be conducted online. Story adapted from: The Case of the Speluncean Explorers.
+
+Credits:
+Playwright: 林建剛 嚴嘉儀
+Director: 林建剛 陳曉彤
+Actors: 陳曉彤, 王家兒, 嚴嘉儀, 林建剛, 莫皓中, 鄧永康, 洪家澤, 鍾益秀, 馮迎臨 （香港執業律師）`,
+    image: '/images/Murder in the Cave (《洞穴殺人事件》)/poster.jpg'
   },
   {
     id: 'cave-investigation-2020',
@@ -376,6 +300,8 @@ Actors: 陳曉彤, 王家兒, 嚴嘉儀, 林建剛, 莫皓中, 鄧永康, 洪家
     category: 'Play',
     description: 'Playwright.'
   },
+
+  // 2019
   {
     id: 'hkapa-scholarship-2019',
     year: '2019/20',
@@ -391,6 +317,8 @@ Actors: 陳曉彤, 王家兒, 嚴嘉儀, 林建剛, 莫皓中, 鄧永康, 洪家
     category: 'Play',
     description: 'Actor.'
   },
+
+  // 2018
   {
     id: 'hell-walk-2018',
     year: '2018',
@@ -410,6 +338,8 @@ Actors: 陳曉彤, 王家兒, 嚴嘉儀, 林建剛, 莫皓中, 鄧永康, 洪家
     category: 'Play',
     description: 'Playwright, Director.'
   },
+
+  // 2017
   {
     id: 'swallow-2017',
     year: '2017',
@@ -438,6 +368,8 @@ Actors: 陳曉彤, 王家兒, 嚴嘉儀, 林建剛, 莫皓中, 鄧永康, 洪家
     category: 'Play',
     description: 'Playwright.'
   },
+
+  // 2016
   {
     id: 'truth-newsroom-2016',
     year: '2016',
@@ -455,22 +387,18 @@ Actors: 陳曉彤, 王家兒, 嚴嘉儀, 林建剛, 莫皓中, 鄧永康, 洪家
     subtitle: 'Work: "The Death of the Girl" (《少女之死》)',
     type: 'award'
   },
+
+  // 2015
   {
     id: 'don-quixote-award-2015',
     year: '2015',
-    title: 'Outstanding Award, 9th Chinese Stage Script Writing Competition',
-    subtitle: 'Work: "My Don Quixote Dad" (《我的唐吉叔叔》)',
-    type: 'award',
-    highlight: true
-  },
-  {
-    id: 'don-quixote-work-2015',
-    year: '2015',
     title: 'My Don Quixote Dad (《我的唐吉叔叔》)',
-    subtitle: 'Hong Kong Baptist University',
-    type: 'work',
+    subtitle: '9th Chinese Stage Script Writing Competition',
+    type: 'award',
     category: 'Play',
-    description: 'Playwright. Award-winning script.'
+    description: `Outstanding Award.
+Playwright: KK Lam.`,
+    highlight: true
   }
 ];
 
