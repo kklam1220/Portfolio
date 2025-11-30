@@ -8,15 +8,15 @@ const Hero: React.FC = () => {
       {/* Background Image - Using 'Hell Walk/2.jpg' as hero background */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/70 to-background z-10"></div>
-        <img
-          src="/images/Hell Walk/2.jpg"
-          alt="Stage Background"
-          className="w-full h-full object-cover opacity-50"
-          onError={(e) => {
-            // Fallback if image not found
-            (e.target as HTMLImageElement).src = 'https://picsum.photos/seed/theatre_dark/1920/1080';
-          }}
-        />
+          <img
+            src="/images/Hell Walk/new cover.jpg"
+            alt="Stage Background"
+            className="w-full h-full object-cover opacity-50"
+            onError={(e) => {
+              // Fallback if image not found
+              (e.target as HTMLImageElement).src = 'https://picsum.photos/seed/theatre_dark/1920/1080';
+            }}
+          />
       </div>
 
       {/* Content */}
@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
             {/* Background image effect on hover */}
             <span className="absolute inset-0 w-full h-full transition-all duration-500 ease-out opacity-0 group-hover:opacity-20">
               <img
-                src="/images/Hell Walk/2.jpg"
+                src="/images/Hell Walk/new cover.jpg"
                 alt=""
                 className="w-full h-full object-cover"
               />
