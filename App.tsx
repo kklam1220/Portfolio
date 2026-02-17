@@ -74,6 +74,15 @@ function App() {
                 Leveraging IT expertise to build subtitle synchronization systems and enhance theatrical accessibility.
               </p>
             </a>
+
+            {/* Link to IT version */}
+            <a
+              href="/it-portfolio"
+              className="inline-flex items-center gap-2 px-4 py-2 mt-4 text-sm text-accent hover:text-white border border-accent hover:bg-accent rounded-sm transition-colors group"
+            >
+              <Code size={16} />
+              <span>View IT & Technical Portfolio</span>
+            </a>
           </div>
 
           {/* Right Column: Professional Timeline */}
