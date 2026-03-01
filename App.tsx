@@ -36,7 +36,7 @@ function App() {
           <div className="space-y-8">
             <div className="relative aspect-[3/4] rounded-sm overflow-hidden group mb-8">
               <img
-                src="/images/Me/pic.jpg"
+                src="/images/Me/new_pic.jpg"
                 alt="Kin Kong Lam"
                 className="w-full h-full object-contain transition-all duration-700"
               />
